@@ -1,0 +1,99 @@
+/* fuente de gooogle */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x:hidden;
+}
+
+/* MENU */
+#menu  li > a { 
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/* imagenes de carrusel */
+.carousel-inner{
+    max-height:39rem;
+}
+
+
+
+
+
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position:relative;
+}
+
+
+
+/* edicion de pie de pagina footer */
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size:26px ;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+
+
+/* section en pantalla perqueña adaptacion */
+@media(max-width:768px){
+    #intro{
+        width:90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+}
+
+/* estilo de formulario de registro */
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border: 50px;
+    max-width: 500px;
+
+}
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+@media( max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+   
+    #bg-cotacto {
+        top: -110px;
+    }
+}
+
